@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		3B9081B924D23C3700288896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081B824D23C3700288896 /* AppDelegate.swift */; };
-		3B9081BB24D23C3700288896 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081BA24D23C3700288896 /* SceneDelegate.swift */; };
 		3B9081C324D23C3700288896 /* WalkingRoutes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081C124D23C3700288896 /* WalkingRoutes.xcdatamodeld */; };
 		3B9081C524D23C3A00288896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9081C424D23C3A00288896 /* Assets.xcassets */; };
 		3B9081C824D23C3A00288896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9081C624D23C3A00288896 /* LaunchScreen.storyboard */; };
+		3B9081D924D2458000288896 /* MapRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081D724D2458000288896 /* MapRouteViewController.swift */; };
+		3B9081DA24D2458000288896 /* MapRouteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9081D824D2458000288896 /* MapRouteViewController.xib */; };
+		3B9081E124D245DD00288896 /* RoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081DF24D245DD00288896 /* RoutesViewController.swift */; };
+		3B9081E224D245DD00288896 /* RoutesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9081E024D245DD00288896 /* RoutesViewController.xib */; };
+		3B9081E524D245F800288896 /* RoutesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081E324D245F800288896 /* RoutesDetailViewController.swift */; };
+		3B9081E624D245F800288896 /* RoutesDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9081E424D245F800288896 /* RoutesDetailViewController.xib */; };
+		3B9081E824D246A000288896 /* CoordinatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081E724D246A000288896 /* CoordinatorViewController.swift */; };
+		3B9081EA24D24FB900288896 /* UIViewController+CustomPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081E924D24FB900288896 /* UIViewController+CustomPresent.swift */; };
+		3B9081EE24D2546C00288896 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081ED24D2546C00288896 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B9081B524D23C3700288896 /* WalkingRoutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkingRoutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9081B824D23C3700288896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B9081BA24D23C3700288896 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3B9081C224D23C3700288896 /* WalkingRoutes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WalkingRoutes.xcdatamodel; sourceTree = "<group>"; };
 		3B9081C424D23C3A00288896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B9081C724D23C3A00288896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B9081C924D23C3A00288896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B9081D724D2458000288896 /* MapRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouteViewController.swift; sourceTree = "<group>"; };
+		3B9081D824D2458000288896 /* MapRouteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapRouteViewController.xib; sourceTree = "<group>"; };
+		3B9081DF24D245DD00288896 /* RoutesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesViewController.swift; sourceTree = "<group>"; };
+		3B9081E024D245DD00288896 /* RoutesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoutesViewController.xib; sourceTree = "<group>"; };
+		3B9081E324D245F800288896 /* RoutesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesDetailViewController.swift; sourceTree = "<group>"; };
+		3B9081E424D245F800288896 /* RoutesDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoutesDetailViewController.xib; sourceTree = "<group>"; };
+		3B9081E724D246A000288896 /* CoordinatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorViewController.swift; sourceTree = "<group>"; };
+		3B9081E924D24FB900288896 /* UIViewController+CustomPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+CustomPresent.swift"; sourceTree = "<group>"; };
+		3B9081ED24D2546C00288896 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,22 +70,102 @@
 		3B9081B724D23C3700288896 /* WalkingRoutes */ = {
 			isa = PBXGroup;
 			children = (
-				3B9081CF24D23E9900288896 /* New Group */,
+				3B9081D624D243AE00288896 /* Navigation */,
 				3B9081B824D23C3700288896 /* AppDelegate.swift */,
-				3B9081BA24D23C3700288896 /* SceneDelegate.swift */,
-				3B9081C424D23C3A00288896 /* Assets.xcassets */,
 				3B9081C624D23C3A00288896 /* LaunchScreen.storyboard */,
-				3B9081C924D23C3A00288896 /* Info.plist */,
-				3B9081C124D23C3700288896 /* WalkingRoutes.xcdatamodeld */,
+				3B9081CF24D23E9900288896 /* Map */,
+				3B9081D024D2409F00288896 /* Routes */,
+				3B9081D224D2413400288896 /* Resources */,
 			);
 			path = WalkingRoutes;
 			sourceTree = "<group>";
 		};
-		3B9081CF24D23E9900288896 /* New Group */ = {
+		3B9081CF24D23E9900288896 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				3B9081DC24D2458E00288896 /* Controller */,
+				3B9081DB24D2458400288896 /* View */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		3B9081D024D2409F00288896 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				3B9081DE24D245C400288896 /* Controller */,
+				3B9081DD24D245BF00288896 /* View */,
+				3B9081D524D2437900288896 /* CoreData */,
+				3B9081D424D2436B00288896 /* Model */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		3B9081D224D2413400288896 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B9081C424D23C3A00288896 /* Assets.xcassets */,
+				3B9081C924D23C3A00288896 /* Info.plist */,
+				3B9081E924D24FB900288896 /* UIViewController+CustomPresent.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B9081D424D2436B00288896 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B9081D524D2437900288896 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3B9081C124D23C3700288896 /* WalkingRoutes.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		3B9081D624D243AE00288896 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				3B9081E724D246A000288896 /* CoordinatorViewController.swift */,
+				3B9081ED24D2546C00288896 /* TabBarController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		3B9081DB24D2458400288896 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B9081D824D2458000288896 /* MapRouteViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B9081DC24D2458E00288896 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B9081D724D2458000288896 /* MapRouteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B9081DD24D245BF00288896 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B9081E424D245F800288896 /* RoutesDetailViewController.xib */,
+				3B9081E024D245DD00288896 /* RoutesViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B9081DE24D245C400288896 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B9081DF24D245DD00288896 /* RoutesViewController.swift */,
+				3B9081E324D245F800288896 /* RoutesDetailViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +228,9 @@
 			files = (
 				3B9081C824D23C3A00288896 /* LaunchScreen.storyboard in Resources */,
 				3B9081C524D23C3A00288896 /* Assets.xcassets in Resources */,
+				3B9081E224D245DD00288896 /* RoutesViewController.xib in Resources */,
+				3B9081E624D245F800288896 /* RoutesDetailViewController.xib in Resources */,
+				3B9081DA24D2458000288896 /* MapRouteViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +243,12 @@
 			files = (
 				3B9081C324D23C3700288896 /* WalkingRoutes.xcdatamodeld in Sources */,
 				3B9081B924D23C3700288896 /* AppDelegate.swift in Sources */,
-				3B9081BB24D23C3700288896 /* SceneDelegate.swift in Sources */,
+				3B9081E524D245F800288896 /* RoutesDetailViewController.swift in Sources */,
+				3B9081EE24D2546C00288896 /* TabBarController.swift in Sources */,
+				3B9081EA24D24FB900288896 /* UIViewController+CustomPresent.swift in Sources */,
+				3B9081D924D2458000288896 /* MapRouteViewController.swift in Sources */,
+				3B9081E124D245DD00288896 /* RoutesViewController.swift in Sources */,
+				3B9081E824D246A000288896 /* CoordinatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +386,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JRC85PS362;
-				INFOPLIST_FILE = WalkingRoutes/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				INFOPLIST_FILE = WalkingRoutes/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,8 +405,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JRC85PS362;
-				INFOPLIST_FILE = WalkingRoutes/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				INFOPLIST_FILE = WalkingRoutes/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -20,6 +20,7 @@
 		3B9081E824D246A000288896 /* CoordinatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081E724D246A000288896 /* CoordinatorViewController.swift */; };
 		3B9081EA24D24FB900288896 /* UIViewController+CustomPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081E924D24FB900288896 /* UIViewController+CustomPresent.swift */; };
 		3B9081EE24D2546C00288896 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081ED24D2546C00288896 /* TabBarController.swift */; };
+		46E6E09BBF0CF0727500B843 /* Pods_WalkingRoutes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAFC47EE4F9B7659113E577 /* Pods_WalkingRoutes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,9 @@
 		3B9081E724D246A000288896 /* CoordinatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorViewController.swift; sourceTree = "<group>"; };
 		3B9081E924D24FB900288896 /* UIViewController+CustomPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+CustomPresent.swift"; sourceTree = "<group>"; };
 		3B9081ED24D2546C00288896 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4BAFC47EE4F9B7659113E577 /* Pods_WalkingRoutes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalkingRoutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5EA8C04D59E6234E2B46AE /* Pods-WalkingRoutes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkingRoutes.release.xcconfig"; path = "Target Support Files/Pods-WalkingRoutes/Pods-WalkingRoutes.release.xcconfig"; sourceTree = "<group>"; };
+		FFC1C2BE345697C01E58BEA9 /* Pods-WalkingRoutes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkingRoutes.debug.xcconfig"; path = "Target Support Files/Pods-WalkingRoutes/Pods-WalkingRoutes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46E6E09BBF0CF0727500B843 /* Pods_WalkingRoutes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +61,8 @@
 			children = (
 				3B9081B724D23C3700288896 /* WalkingRoutes */,
 				3B9081B624D23C3700288896 /* Products */,
+				91B015E462A27F8F24A836BC /* Pods */,
+				79F1A7D97CB09E02EC98952F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,10 +99,10 @@
 		3B9081D024D2409F00288896 /* Routes */ = {
 			isa = PBXGroup;
 			children = (
+				3B9081EF24D263E000288896 /* ViewModel */,
 				3B9081DE24D245C400288896 /* Controller */,
 				3B9081DD24D245BF00288896 /* View */,
 				3B9081D524D2437900288896 /* CoreData */,
-				3B9081D424D2436B00288896 /* Model */,
 			);
 			path = Routes;
 			sourceTree = "<group>";
@@ -113,6 +120,7 @@
 		3B9081D424D2436B00288896 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3B9081C124D23C3700288896 /* WalkingRoutes.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -120,7 +128,7 @@
 		3B9081D524D2437900288896 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				3B9081C124D23C3700288896 /* WalkingRoutes.xcdatamodeld */,
+				3B9081D424D2436B00288896 /* Model */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -168,6 +176,31 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		3B9081EF24D263E000288896 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		79F1A7D97CB09E02EC98952F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BAFC47EE4F9B7659113E577 /* Pods_WalkingRoutes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91B015E462A27F8F24A836BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFC1C2BE345697C01E58BEA9 /* Pods-WalkingRoutes.debug.xcconfig */,
+				7E5EA8C04D59E6234E2B46AE /* Pods-WalkingRoutes.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B9081CC24D23C3A00288896 /* Build configuration list for PBXNativeTarget "WalkingRoutes" */;
 			buildPhases = (
+				E910CF4051B9D5E9E373A6FB /* [CP] Check Pods Manifest.lock */,
 				3B9081B124D23C3700288896 /* Sources */,
 				3B9081B224D23C3700288896 /* Frameworks */,
 				3B9081B324D23C3700288896 /* Resources */,
+				5BA7721332ADDB22694D13DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +270,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BA7721332ADDB22694D13DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalkingRoutes/Pods-WalkingRoutes-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalkingRoutes/Pods-WalkingRoutes-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WalkingRoutes/Pods-WalkingRoutes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E910CF4051B9D5E9E373A6FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WalkingRoutes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B9081B124D23C3700288896 /* Sources */ = {
@@ -382,6 +459,7 @@
 		};
 		3B9081CD24D23C3A00288896 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC1C2BE345697C01E58BEA9 /* Pods-WalkingRoutes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -401,6 +479,7 @@
 		};
 		3B9081CE24D23C3A00288896 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E5EA8C04D59E6234E2B46AE /* Pods-WalkingRoutes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

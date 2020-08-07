@@ -8,23 +8,49 @@
 
 import UIKit
 
+protocol RoutesDetailViewControllerDelegate: class {
+  func deleteTapped()
+  func shareTapped(shareContent: String)
+  func dismissTapped()
+}
+
 class RoutesDetailViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+  @IBOutlet private var routeLabel: UILabel!
+  @IBOutlet private var distanceLabel: UILabel!
+  @IBOutlet private var timeLabel: UILabel!
+  weak var delegate: RoutesDetailViewControllerDelegate?
+  var viewModel: RoutesDetailViewModel!
+  
+  //MARK: - Injections
+  
+  var route: Route!
+  
+  //MARK: - Life cycle
+  
+  override func viewWillAppear(_ animated: Bool) {
+    viewModel = RoutesDetailViewModel(name: route.name,
+                                      distance: route.distance,
+                                      time: route.time)
+    routeLabel.text = viewModel.name
+    distanceLabel.text = viewModel.distance
+    timeLabel.text = viewModel.time
+  }
+  
+  //MARK: - Events
+  
+  @IBAction func deletePressed(_ sender: UIButton) {
+    CoreDataManager.shared.delete(route: self.route)
+    delegate?.deleteTapped()
+  }
+  
+  @IBAction func dismissPressed(_ sender: UIButton) {
+    delegate?.dismissTapped()
+  }
+  
+  @IBAction func sharePressed(_ sender: UIButton) {
+    delegate?.shareTapped(shareContent: viewModel.shareContent)
+  }
+  
 
 }

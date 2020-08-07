@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapRouteViewController" customModule="WalkingRoutes" customModuleProvider="target">
             <connections>
+                <outlet property="mapView" destination="dCo-ua-9S1" id="Qcr-OL-rRK"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,9 +18,31 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dCo-ua-9S1" customClass="GMSMapView">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coV-Hh-s2z">
+                    <rect key="frame" x="20" y="737" width="57" height="45"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <state key="normal" title="Start"/>
+                    <connections>
+                        <action selector="startEndTapped:" destination="-1" eventType="touchUpInside" id="Pco-E7-ZLE"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dCo-ua-9S1" secondAttribute="bottom" id="8aJ-tV-Uf0"/>
+                <constraint firstItem="dCo-ua-9S1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Fuo-fH-lgE"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dCo-ua-9S1" secondAttribute="trailing" id="cG6-ue-OWz"/>
+                <constraint firstItem="coV-Hh-s2z" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="tHa-Mc-ttZ"/>
+                <constraint firstItem="dCo-ua-9S1" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="uB6-Ia-i2y"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="coV-Hh-s2z" secondAttribute="bottom" constant="80" id="yC5-cy-bjs"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="139" y="96"/>
+            <point key="canvasLocation" x="137.68115942028987" y="95.758928571428569"/>
         </view>
     </objects>
 </document>

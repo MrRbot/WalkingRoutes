@@ -3,27 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B7547AB24DCBCA100AE1A65 /* SaveRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7547A924DCBCA100AE1A65 /* SaveRouteViewController.swift */; };
+		3B7547AC24DCBCA100AE1A65 /* SaveRouteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7547AA24DCBCA100AE1A65 /* SaveRouteViewController.xib */; };
+		3B7547AE24DCC60A00AE1A65 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7547AD24DCC60A00AE1A65 /* CoreDataManager.swift */; };
+		3B7547B024DCC8E300AE1A65 /* SaveRouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7547AF24DCC8E300AE1A65 /* SaveRouteViewModel.swift */; };
+		3B7547B824DCE57A00AE1A65 /* RouteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7547B724DCE57A00AE1A65 /* RouteModel.swift */; };
+		3B7547BA24DCE7AF00AE1A65 /* RoutesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7547B924DCE7AF00AE1A65 /* RoutesViewModel.swift */; };
+		3B7547BD24DCEB6400AE1A65 /* RoutesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7547BB24DCEB6400AE1A65 /* RoutesTableViewController.swift */; };
+		3B7547BE24DCEB6400AE1A65 /* RoutesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7547BC24DCEB6400AE1A65 /* RoutesTableViewController.xib */; };
+		3B7547C124DCED6D00AE1A65 /* RoutesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7547BF24DCED6D00AE1A65 /* RoutesCell.swift */; };
+		3B7547C224DCED6D00AE1A65 /* RoutesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7547C024DCED6D00AE1A65 /* RoutesCell.xib */; };
+		3B7547C424DCF6F200AE1A65 /* RoutesDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7547C324DCF6F200AE1A65 /* RoutesDetailViewModel.swift */; };
+		3B7547C624DDC8F200AE1A65 /* Double+Conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7547C524DDC8F100AE1A65 /* Double+Conversions.swift */; };
+		3B7547C824DDDE2600AE1A65 /* GMSMarker+CustomSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7547C724DDDE2600AE1A65 /* GMSMarker+CustomSize.swift */; };
 		3B9081B924D23C3700288896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081B824D23C3700288896 /* AppDelegate.swift */; };
 		3B9081C324D23C3700288896 /* WalkingRoutes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081C124D23C3700288896 /* WalkingRoutes.xcdatamodeld */; };
 		3B9081C524D23C3A00288896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9081C424D23C3A00288896 /* Assets.xcassets */; };
 		3B9081C824D23C3A00288896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9081C624D23C3A00288896 /* LaunchScreen.storyboard */; };
 		3B9081D924D2458000288896 /* MapRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081D724D2458000288896 /* MapRouteViewController.swift */; };
 		3B9081DA24D2458000288896 /* MapRouteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9081D824D2458000288896 /* MapRouteViewController.xib */; };
-		3B9081E124D245DD00288896 /* RoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081DF24D245DD00288896 /* RoutesViewController.swift */; };
-		3B9081E224D245DD00288896 /* RoutesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9081E024D245DD00288896 /* RoutesViewController.xib */; };
 		3B9081E524D245F800288896 /* RoutesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081E324D245F800288896 /* RoutesDetailViewController.swift */; };
 		3B9081E624D245F800288896 /* RoutesDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9081E424D245F800288896 /* RoutesDetailViewController.xib */; };
 		3B9081E824D246A000288896 /* CoordinatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081E724D246A000288896 /* CoordinatorViewController.swift */; };
 		3B9081EA24D24FB900288896 /* UIViewController+CustomPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081E924D24FB900288896 /* UIViewController+CustomPresent.swift */; };
 		3B9081EE24D2546C00288896 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081ED24D2546C00288896 /* TabBarController.swift */; };
+		3B9081F224D26F6900288896 /* MapRouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9081F124D26F6900288896 /* MapRouteViewModel.swift */; };
 		46E6E09BBF0CF0727500B843 /* Pods_WalkingRoutes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAFC47EE4F9B7659113E577 /* Pods_WalkingRoutes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B7547A924DCBCA100AE1A65 /* SaveRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveRouteViewController.swift; sourceTree = "<group>"; };
+		3B7547AA24DCBCA100AE1A65 /* SaveRouteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaveRouteViewController.xib; sourceTree = "<group>"; };
+		3B7547AD24DCC60A00AE1A65 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		3B7547AF24DCC8E300AE1A65 /* SaveRouteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveRouteViewModel.swift; sourceTree = "<group>"; };
+		3B7547B724DCE57A00AE1A65 /* RouteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteModel.swift; sourceTree = "<group>"; };
+		3B7547B924DCE7AF00AE1A65 /* RoutesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesViewModel.swift; sourceTree = "<group>"; };
+		3B7547BB24DCEB6400AE1A65 /* RoutesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesTableViewController.swift; sourceTree = "<group>"; };
+		3B7547BC24DCEB6400AE1A65 /* RoutesTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoutesTableViewController.xib; sourceTree = "<group>"; };
+		3B7547BF24DCED6D00AE1A65 /* RoutesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesCell.swift; sourceTree = "<group>"; };
+		3B7547C024DCED6D00AE1A65 /* RoutesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoutesCell.xib; sourceTree = "<group>"; };
+		3B7547C324DCF6F200AE1A65 /* RoutesDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesDetailViewModel.swift; sourceTree = "<group>"; };
+		3B7547C524DDC8F100AE1A65 /* Double+Conversions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Conversions.swift"; sourceTree = "<group>"; };
+		3B7547C724DDDE2600AE1A65 /* GMSMarker+CustomSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GMSMarker+CustomSize.swift"; sourceTree = "<group>"; };
 		3B9081B524D23C3700288896 /* WalkingRoutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkingRoutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9081B824D23C3700288896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B9081C224D23C3700288896 /* WalkingRoutes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WalkingRoutes.xcdatamodel; sourceTree = "<group>"; };
@@ -32,13 +57,12 @@
 		3B9081C924D23C3A00288896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B9081D724D2458000288896 /* MapRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouteViewController.swift; sourceTree = "<group>"; };
 		3B9081D824D2458000288896 /* MapRouteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapRouteViewController.xib; sourceTree = "<group>"; };
-		3B9081DF24D245DD00288896 /* RoutesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesViewController.swift; sourceTree = "<group>"; };
-		3B9081E024D245DD00288896 /* RoutesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoutesViewController.xib; sourceTree = "<group>"; };
 		3B9081E324D245F800288896 /* RoutesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesDetailViewController.swift; sourceTree = "<group>"; };
 		3B9081E424D245F800288896 /* RoutesDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoutesDetailViewController.xib; sourceTree = "<group>"; };
 		3B9081E724D246A000288896 /* CoordinatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorViewController.swift; sourceTree = "<group>"; };
 		3B9081E924D24FB900288896 /* UIViewController+CustomPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+CustomPresent.swift"; sourceTree = "<group>"; };
 		3B9081ED24D2546C00288896 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		3B9081F124D26F6900288896 /* MapRouteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouteViewModel.swift; sourceTree = "<group>"; };
 		4BAFC47EE4F9B7659113E577 /* Pods_WalkingRoutes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalkingRoutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5EA8C04D59E6234E2B46AE /* Pods-WalkingRoutes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkingRoutes.release.xcconfig"; path = "Target Support Files/Pods-WalkingRoutes/Pods-WalkingRoutes.release.xcconfig"; sourceTree = "<group>"; };
 		FFC1C2BE345697C01E58BEA9 /* Pods-WalkingRoutes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkingRoutes.debug.xcconfig"; path = "Target Support Files/Pods-WalkingRoutes/Pods-WalkingRoutes.debug.xcconfig"; sourceTree = "<group>"; };
@@ -56,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B7547B624DCE56B00AE1A65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B7547B724DCE57A00AE1A65 /* RouteModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3B9081AC24D23C3700288896 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +122,7 @@
 		3B9081CF24D23E9900288896 /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				3B9081F024D26C6E00288896 /* ViewModel */,
 				3B9081DC24D2458E00288896 /* Controller */,
 				3B9081DB24D2458400288896 /* View */,
 			);
@@ -99,6 +132,7 @@
 		3B9081D024D2409F00288896 /* Routes */ = {
 			isa = PBXGroup;
 			children = (
+				3B7547B624DCE56B00AE1A65 /* Model */,
 				3B9081EF24D263E000288896 /* ViewModel */,
 				3B9081DE24D245C400288896 /* Controller */,
 				3B9081DD24D245BF00288896 /* View */,
@@ -110,9 +144,9 @@
 		3B9081D224D2413400288896 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3B9081F324D2780300288896 /* Extensions */,
 				3B9081C424D23C3A00288896 /* Assets.xcassets */,
 				3B9081C924D23C3A00288896 /* Info.plist */,
-				3B9081E924D24FB900288896 /* UIViewController+CustomPresent.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -129,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				3B9081D424D2436B00288896 /* Model */,
+				3B7547AD24DCC60A00AE1A65 /* CoreDataManager.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -145,6 +180,7 @@
 		3B9081DB24D2458400288896 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3B7547AA24DCBCA100AE1A65 /* SaveRouteViewController.xib */,
 				3B9081D824D2458000288896 /* MapRouteViewController.xib */,
 			);
 			path = View;
@@ -154,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				3B9081D724D2458000288896 /* MapRouteViewController.swift */,
+				3B7547A924DCBCA100AE1A65 /* SaveRouteViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -161,8 +198,10 @@
 		3B9081DD24D245BF00288896 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3B7547BC24DCEB6400AE1A65 /* RoutesTableViewController.xib */,
 				3B9081E424D245F800288896 /* RoutesDetailViewController.xib */,
-				3B9081E024D245DD00288896 /* RoutesViewController.xib */,
+				3B7547BF24DCED6D00AE1A65 /* RoutesCell.swift */,
+				3B7547C024DCED6D00AE1A65 /* RoutesCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -170,8 +209,8 @@
 		3B9081DE24D245C400288896 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3B9081DF24D245DD00288896 /* RoutesViewController.swift */,
 				3B9081E324D245F800288896 /* RoutesDetailViewController.swift */,
+				3B7547BB24DCEB6400AE1A65 /* RoutesTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,8 +218,29 @@
 		3B9081EF24D263E000288896 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3B7547B924DCE7AF00AE1A65 /* RoutesViewModel.swift */,
+				3B7547C324DCF6F200AE1A65 /* RoutesDetailViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3B9081F024D26C6E00288896 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B9081F124D26F6900288896 /* MapRouteViewModel.swift */,
+				3B7547AF24DCC8E300AE1A65 /* SaveRouteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3B9081F324D2780300288896 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3B9081E924D24FB900288896 /* UIViewController+CustomPresent.swift */,
+				3B7547C524DDC8F100AE1A65 /* Double+Conversions.swift */,
+				3B7547C724DDDE2600AE1A65 /* GMSMarker+CustomSize.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		79F1A7D97CB09E02EC98952F /* Frameworks */ = {
@@ -197,7 +257,6 @@
 				FFC1C2BE345697C01E58BEA9 /* Pods-WalkingRoutes.debug.xcconfig */,
 				7E5EA8C04D59E6234E2B46AE /* Pods-WalkingRoutes.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -261,11 +320,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7547C224DCED6D00AE1A65 /* RoutesCell.xib in Resources */,
 				3B9081C824D23C3A00288896 /* LaunchScreen.storyboard in Resources */,
+				3B7547AC24DCBCA100AE1A65 /* SaveRouteViewController.xib in Resources */,
 				3B9081C524D23C3A00288896 /* Assets.xcassets in Resources */,
-				3B9081E224D245DD00288896 /* RoutesViewController.xib in Resources */,
 				3B9081E624D245F800288896 /* RoutesDetailViewController.xib in Resources */,
 				3B9081DA24D2458000288896 /* MapRouteViewController.xib in Resources */,
+				3B7547BE24DCEB6400AE1A65 /* RoutesTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,11 +382,21 @@
 				3B9081C324D23C3700288896 /* WalkingRoutes.xcdatamodeld in Sources */,
 				3B9081B924D23C3700288896 /* AppDelegate.swift in Sources */,
 				3B9081E524D245F800288896 /* RoutesDetailViewController.swift in Sources */,
+				3B7547C824DDDE2600AE1A65 /* GMSMarker+CustomSize.swift in Sources */,
+				3B7547C624DDC8F200AE1A65 /* Double+Conversions.swift in Sources */,
+				3B7547B824DCE57A00AE1A65 /* RouteModel.swift in Sources */,
 				3B9081EE24D2546C00288896 /* TabBarController.swift in Sources */,
+				3B9081F224D26F6900288896 /* MapRouteViewModel.swift in Sources */,
+				3B7547BA24DCE7AF00AE1A65 /* RoutesViewModel.swift in Sources */,
+				3B7547C424DCF6F200AE1A65 /* RoutesDetailViewModel.swift in Sources */,
+				3B7547C124DCED6D00AE1A65 /* RoutesCell.swift in Sources */,
+				3B7547B024DCC8E300AE1A65 /* SaveRouteViewModel.swift in Sources */,
 				3B9081EA24D24FB900288896 /* UIViewController+CustomPresent.swift in Sources */,
 				3B9081D924D2458000288896 /* MapRouteViewController.swift in Sources */,
-				3B9081E124D245DD00288896 /* RoutesViewController.swift in Sources */,
 				3B9081E824D246A000288896 /* CoordinatorViewController.swift in Sources */,
+				3B7547AB24DCBCA100AE1A65 /* SaveRouteViewController.swift in Sources */,
+				3B7547AE24DCC60A00AE1A65 /* CoreDataManager.swift in Sources */,
+				3B7547BD24DCEB6400AE1A65 /* RoutesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -447,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +536,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JRC85PS362;
 				INFOPLIST_FILE = WalkingRoutes/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,7 +556,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JRC85PS362;
 				INFOPLIST_FILE = WalkingRoutes/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

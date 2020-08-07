@@ -8,6 +8,5 @@ target 'WalkingRoutes' do
   # Pods for WalkingRoutes
 
   pod 'GoogleMaps'
-  pod 'GooglePlaces'
 
 end

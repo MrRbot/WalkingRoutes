@@ -50,7 +50,6 @@ extension RoutesTableViewController {
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
-    print(viewModel.routes[indexPath.row])
     delegate?.didSelectRow(with: viewModel.routes[indexPath.row])
   }
   

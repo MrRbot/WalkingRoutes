@@ -20,13 +20,9 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Walking Routes use your location to track and save your walks .</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Walking Routes use your location to track and save your walks .</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Walking Routes use your location to track and save your walks .</string>
 	<key>NSLocationUsageDescription</key>
+	<string>Walking Routes use your location to track and save your walks .</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Walking Routes use your location to track and save your walks .</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

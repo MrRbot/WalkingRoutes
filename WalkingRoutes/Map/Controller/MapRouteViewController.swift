@@ -46,13 +46,15 @@ class MapRouteViewController: UIViewController {
       path.removeAllCoordinates()
       mapView.clear()
       configureRouteMarkers()
-      viewModel.startWalk { coordinate in
-        startMarker.position = coordinate
+      viewModel.startWalk { [weak self] coordinate in
+        guard self != nil else { return }
+        self?.startMarker.position = coordinate
       }
       sender.setTitle(viewModel.walkState.rawValue, for: .normal)
     case .end:
-      viewModel.endWalk { coordinate in
-        endMarker.position = coordinate
+      viewModel.endWalk { [weak self] coordinate in
+        guard self != nil else { return }
+        self?.endMarker.position = coordinate
       }
       sender.setTitle(viewModel.walkState.rawValue, for: .normal)
       let route = RouteModel(distance: viewModel.distanceFormatted,
